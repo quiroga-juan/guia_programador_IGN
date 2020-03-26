@@ -1,5 +1,4 @@
-![](images/IGN_Argentina.png)
-\includegraphics[width=0.5\textwidth,height=\textheight]{images/IGN_Argentina.png}
+![](images/IGN_Argentina.png){ width: 200px; }
 # Mini-Guía para programador IGN 
 
 ## Pasos previos
