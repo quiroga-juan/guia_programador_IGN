@@ -16,10 +16,9 @@
 * Un editor de texto plano, por ejemplo: VIM, NotePad++, Sublime, etc.
 * Software de control de versiones de archivos para operar con GIT(https://git-scm.com/), por ejemplo GitHub https://github.com/ de escritorio o consola, (se requiere una cuenta).
 
-## Ejercicios
+## Ejercicios Python - Nivel Básico
 
-### Python - Nivel Básico
-00. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio.
+Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio.
 
 
 0. Imprimir por consola 
@@ -27,7 +26,7 @@
 Hola mundo!
 ```
 
-#### Manejo de archivos y directorios
+### Manejo de archivos y directorios
 
 1. Abrir un archivo nuevo, nombrarlo como: 
 ```
@@ -66,16 +65,16 @@ IGN_<año><mes><dia><hora><min><seg>.txt
 *Nota*: Las variables \<año>\<mes> son las mismas de donde se encuentra ubicado el archivo. Las variables \<hora>\<min>\<seg> son las del día de hoy (conviene trabajar con variables de tipo datetime).
 
 
-### Python - Nivel Intermedio
+## Ejercicios Python - Nivel Intermedio
 
-#### Manejo de archivos y directorios
+### Manejo de archivos y directorios
 
 6. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
 ```
 IGN_<año><mes><dia><hora><min><seg>.txt
 ```
 
-#### Manejo de expresiones regulares
+### Manejo de expresiones regulares
 > Requiere las siguientes librerias: re.
 
 7. Reconocimiento de hora, minutos y segundos del archivo IGN_\<fecha_actual>.txt. Con expresiones regulares. Parsear cada linea obteniendo \<hora>,\<min> y \<seg> en variables separadas.
