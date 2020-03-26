@@ -23,9 +23,9 @@
 ```
 "IGN"_<fecha_actual>".txt"
 ```
-*Nota*:<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
+*Nota*:\<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
 
->4. Abrir ese mismo archivo y agregarle el siguiente contenido:
+4. Abrir ese mismo archivo y agregarle el siguiente contenido:
 
 ```
 	"1."<hora><min><seg>
@@ -34,7 +34,6 @@
 	...
 	"50."<hora><min><seg>+49
 ```
-*Nota*:\<hora>\<min>\<seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
+>*Nota*:\<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10.
 
-5.
-==
+>5. 
