@@ -34,7 +34,7 @@
 	...
 	"50."<hora><min><seg>+49
 ```
-*Nota*:<hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
+*Nota*:\<hora>\<min>\<seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
 
 5.
 ==
