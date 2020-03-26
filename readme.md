@@ -42,7 +42,7 @@
 	...
 	"50."<hora><min><seg>+49
 ```
-	Donde <hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
+>	Donde <hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
 
 5.
 ==
