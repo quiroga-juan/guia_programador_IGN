@@ -40,7 +40,7 @@ IGN_<fecha_actual>.txt
 	...
 	50.<hora><min><seg>+49
 ```
-*Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar la hora, min, seg y el delta como variables de tipo entero.
+*Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar  hora, min, seg y el delta como variables de tipo entero.
 
 5. Abrir el archivo del ejercicio anterior y agregarle el siguiente contenido:
 
@@ -51,7 +51,7 @@ IGN_<fecha_actual>.txt
 	...
 	50.<hora><min><seg>+49
 ```
-*Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar la hora, min, seg y el delta como variables de tipo datetime.
+*Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar  hora, min, seg y el delta como variables de tipo datetime.
 
 #### Manejo de expresiones regulares
 > Requiere las siguientes librerias: re.
