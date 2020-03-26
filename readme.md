@@ -1,4 +1,5 @@
-# Mini-Guía para programador IGN
+![](images/IGN_Argentina.png)
+# Mini-Guía para programador IGN 
 
 ## Pasos previos
 ### Requerimientos de software:
@@ -37,7 +38,7 @@ IGN_<fecha_actual>.txt
 ```
 *Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar la hora, min, seg y el delta como variables de tipo entero.
 
-5. Abrir ese mismo archivo y agregarle el siguiente contenido:
+5. Abrir el archivo del ejercicio anterior y agregarle el siguiente contenido:
 
 ```
 	1.<hora><min><seg>
@@ -51,4 +52,4 @@ IGN_<fecha_actual>.txt
 #### Manejo de expresiones regulares
 > Requiere las siguientes librerias: re.
 
-6. Reconocimiento de 
+6. Reconocimiento de hora, minutos y segundos del archivo 
