@@ -10,8 +10,7 @@
 ## Ejercicios
 
 ```
-Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
+## Nivel Básico
+1. Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
+2. *Hola mundo*
 ```
->Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
-  >Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
->>Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
