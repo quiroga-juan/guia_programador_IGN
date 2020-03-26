@@ -1,4 +1,4 @@
-<h1 align="right">
+<h1 align="center">
 Guía para el programador IGN 
 </h1>
 
