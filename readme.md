@@ -5,9 +5,9 @@
 
 ## Objetivos
 
-* La guía tiene como objetivo desarrollar algoritmos, programas/rutinas y clases que son utilizadas a menudo para desarrollar tareas del **IGN (Depto. de Marcos de Referencia)**.
+* La guía tiene como objetivo desarrollar algoritmos, programas/rutinas y/o clases que son utilizadas a menudo para desarrollar tareas del **IGN (Depto. de Marcos de Referencia)**.
 
-* Se quiere que los programas sean lo más modulares posibles y sin repetición de código.
+* Se pide que los programas sean lo más modulares posibles y sin repetición de código.
 
 ## Requerimientos de software:
 
@@ -27,15 +27,15 @@
 Hola mundo!
 ```
 
-#### Manejo de archivos y directorios
+#### 1. Manejo de archivos y directorios
 
-3. Abrir un archivo nuevo, nombrarlo como: 
+A. Abrir un archivo nuevo, nombrarlo como: 
 ```
 IGN_<fecha_actual>.txt
 ```
 *Nota*: \<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt. Utilizar libreria *datetime* para obtener la fecha. 
 
-4. Abrir ese mismo archivo y agregarle el siguiente contenido:
+B. Abrir ese mismo archivo y agregarle el siguiente contenido:
 
 ```
 	1.<hora><min><seg>
@@ -46,7 +46,7 @@ IGN_<fecha_actual>.txt
 ```
 *Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar *hora*, min, seg y el delta como variables de tipo entero.
 
-5. Abrir el archivo del ejercicio anterior y agregarle el siguiente contenido:
+3. Abrir el archivo del ejercicio anterior y agregarle el siguiente contenido:
 
 ```
 	1.<hora><min><seg>
@@ -57,20 +57,23 @@ IGN_<fecha_actual>.txt
 ```
 *Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar *hora*, min, seg y el delta como variables de tipo datetime.
 
-6. Crear directorios en la carpeta de trabajo que tengan como nombre el numero de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios.
+4. Crear directorios en la carpeta de trabajo que tengan como nombre el numero de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios.
 
-7. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
+. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
 ```
 IGN_<año><mes><dia><hora><min><seg>.txt
 ```
+*Nota*: Las variables \<año>\<mes> son las mismas de donde se encuentra ubicado el archivo. Las variables \<hora>\<min>\<seg> son las del día de hoy (conviene trabajar con variables de tipo datetime).
+
 
 ### Python - Nivel Intermedio
+
+#### Manejo de archivos y directorios
 
 8. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
 ```
 IGN_<año><mes><dia><hora><min><seg>.txt
 ```
-
 
 #### Manejo de expresiones regulares
 > Requiere las siguientes librerias: re.
