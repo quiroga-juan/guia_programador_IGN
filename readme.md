@@ -34,14 +34,15 @@
 	Donde <hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
 ```
 >4. Abrir ese mismo archivo y agregarle el siguiente contenido:
-	-----------------------
+
+```
 	"1."<hora><min><seg>
 	"2."<hora><min><seg>+1
 	"3."<hora><min><seg>+2
 	...
 	"50."<hora><min><seg>+49
-	-----------------------
+```
 	Donde <hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
 
-5
+5.
 ==
