@@ -18,13 +18,7 @@
 
 ## Ejercicios Python - Nivel Básico
 
-Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio.
-
-
-0. Imprimir por consola 
-```
-Hola mundo!
-```
+0. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio. Y trabajar en el repositorio propio.
 
 ### Manejo de archivos y directorios
 
