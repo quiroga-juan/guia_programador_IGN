@@ -49,8 +49,6 @@ IGN_<fecha_actual>.txt
 *Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar la hora, min, seg y el delta como variables de tipo datetime.
 
 #### Manejo de expresiones regulares
-> Requiere las siguientes librerias:
-```
-- re
-```
+> Requiere las siguientes librerias: re.
+
 6. Reconocimiento de 
