@@ -1,6 +1,7 @@
 
-<img src="images/IGN_Argentina.png" alt="drawing" width="200"/>
-# Mini-Guía para programador IGN 
+<img src="images/IGN_Argentina.png" alt="IGN" width="200"/>
+
+### Mini-Guía para programador IGN 
 
 ## Pasos previos
 ### Requerimientos de software:
