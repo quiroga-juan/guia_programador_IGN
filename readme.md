@@ -1,6 +1,6 @@
-<header>
+<h1>
 Guía para el programador IGN 
-</header>
+</h1>
 
 <p> 
 <img src="images/IGN_Argentina.png" align="right" width="350">
