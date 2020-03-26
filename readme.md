@@ -19,23 +19,23 @@
 ## Ejercicios
 
 ### Python - Nivel Básico
-1. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio.
+00. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio.
 
 
-2. Imprimir por consola 
+0. Imprimir por consola 
 ```
 Hola mundo!
 ```
 
-#### 1. Manejo de archivos y directorios
+#### Manejo de archivos y directorios
 
-	A. Abrir un archivo nuevo, nombrarlo como: 
+1. Abrir un archivo nuevo, nombrarlo como: 
 ```
 IGN_<fecha_actual>.txt
 ```
 *Nota*: \<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt. Utilizar libreria *datetime* para obtener la fecha. 
 
-	B. Abrir ese mismo archivo y agregarle el siguiente contenido:
+2. Abrir ese mismo archivo y agregarle el siguiente contenido:
 
 ```
 	1.<hora><min><seg>
@@ -59,7 +59,7 @@ IGN_<fecha_actual>.txt
 
 4. Crear directorios en la carpeta de trabajo que tengan como nombre el numero de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios.
 
-. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
+5. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
 ```
 IGN_<año><mes><dia><hora><min><seg>.txt
 ```
@@ -70,7 +70,7 @@ IGN_<año><mes><dia><hora><min><seg>.txt
 
 #### Manejo de archivos y directorios
 
-8. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
+6. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
 ```
 IGN_<año><mes><dia><hora><min><seg>.txt
 ```
@@ -78,4 +78,4 @@ IGN_<año><mes><dia><hora><min><seg>.txt
 #### Manejo de expresiones regulares
 > Requiere las siguientes librerias: re.
 
-- Reconocimiento de hora, minutos y segundos del archivo IGN_\<fecha_actual>.txt. Con expresiones regulares. Parsear cada linea obteniendo \<hora>,\<min> y \<seg> en variables separadas.
+7. Reconocimiento de hora, minutos y segundos del archivo IGN_\<fecha_actual>.txt. Con expresiones regulares. Parsear cada linea obteniendo \<hora>,\<min> y \<seg> en variables separadas.
