@@ -16,6 +16,8 @@
 ```
 2. Imprimir por consola "Hola mundo"
 ```
+
+#### Manejo de archivos
 ```
 3. Abrir un archivo nuevo, nombrarlo como: "IGN"_<fecha_actual>".txt", donde <fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
 ```
@@ -30,4 +32,4 @@
 	-----------------------
 	Donde <hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
 ```
-
+5
