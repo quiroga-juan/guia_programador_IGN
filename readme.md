@@ -1,6 +1,6 @@
-
-# Guía para el programador IGN 
-
+<header>
+Guía para el programador IGN 
+</header>
 
 <p> 
 <img src="images/IGN_Argentina.png" align="right" width="350">
@@ -10,7 +10,7 @@
 
 * La guía tiene como objetivo desarrollar algoritmos, programas/rutinas y/o clases que son utilizadas a menudo en el **IGN (Depto. de Marcos de Referencia)**.
 
-* Se pide que los programas sean lo más modulares posibles y sin repetición de código.
+* Se pide que los programas sean lo más modulares posibles.
 
 ## Requerimientos de software:
 
