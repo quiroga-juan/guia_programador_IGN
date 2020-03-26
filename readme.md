@@ -11,7 +11,7 @@
 
 ### Python - Nivel Básico
 
-1. Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
+1. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio.
 
 
 2. Imprimir por consola "Hola mundo".
@@ -23,7 +23,7 @@
 ```
 "IGN"_<fecha_actual>".txt"
 ```
-*Nota*:\<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
+>*Nota*:\<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
 
 4. Abrir ese mismo archivo y agregarle el siguiente contenido:
 
@@ -36,4 +36,4 @@
 ```
 >*Nota*:\<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10.
 
->5. 
+5. 
