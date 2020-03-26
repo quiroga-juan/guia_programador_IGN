@@ -20,7 +20,7 @@
 
 ### GitHub
 
-0. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio. Y trabajar en el repositorio propio de GitHub.	
+0. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio y trabajar en el repositorio propio de GitHub.	
 
 ### Manejo de archivos y directorios
 
@@ -62,7 +62,7 @@ IGN_<año><mes><dia><hora><min><seg>.txt
 
 
 ## Ejercicios Python - Nivel Intermedio
-
+> Requiere las siguientes librerias: [zip](https://docs.python.org/2.7/library/zipfile.html), [gzip](https://docs.python.org/2/library/gzip.html).
 ### Manejo de archivos y directorios
 
 6. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
