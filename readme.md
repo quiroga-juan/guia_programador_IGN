@@ -1,6 +1,5 @@
 # Mini-Guía para programador IGN
 
-$g= 4.32$
 ## Pasos previos
 ### Requerimientos de software:
 * Python (la versión con la que se esté trabajando en ese momento, por ejemplo: v.2.7). En el caso que se pueda, agregar la ruta del programa al **PATH** del sistema. 
@@ -9,9 +8,9 @@ $g= 4.32$
 * Software de control de versiones de archivos para operar con GIT(https://git-scm.com/), por ejemplo GitHub https://github.com/ de escritorio o consola, (se requiere una cuenta).
 
 ## Ejercicios
-==
+
 ### Python - Nivel Básico
---
+-------------------------
 ```
 1. Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
 ```
