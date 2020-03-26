@@ -1,5 +1,5 @@
 
-<img src="images/IGN_Argentina.png" alt="IGN" width="200"/>
+<img src="images/IGN_Argentina.png" alt="IGN" width="500"/>
 
 ### Mini-Guía para programador IGN 
 
