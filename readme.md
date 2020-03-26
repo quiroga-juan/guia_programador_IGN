@@ -1,4 +1,5 @@
-![](images/IGN_Argentina.png){ width: 200px; }
+
+<img src="images/IGN_Argentina.png" alt="drawing" width="200"/>
 # Mini-Guía para programador IGN 
 
 ## Pasos previos
