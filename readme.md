@@ -14,26 +14,28 @@
 1. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio.
 
 
-2. Imprimir por consola "Hola mundo".
-
+2. Imprimir por consola 
+```
+Hola mundo.
+```
 
 #### Manejo de archivos
 
 3. Abrir un archivo nuevo, nombrarlo como: 
 ```
-"IGN"_<fecha_actual>".txt"
+IGN_<fecha_actual>.txt
 ```
-*Nota*:\<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
+*Nota*: \<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
 
 4. Abrir ese mismo archivo y agregarle el siguiente contenido:
 
 ```
-	"1."<hora><min><seg>
-	"2."<hora><min><seg>+1
-	"3."<hora><min><seg>+2
+	1.<hora><min><seg>
+	2.<hora><min><seg>+1
+	3.<hora><min><seg>+2
 	...
-	"50."<hora><min><seg>+49
+	50.<hora><min><seg>+49
 ```
-*Nota*:\<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10.
+*Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10.
 
-5. 
+5. Recono
