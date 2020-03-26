@@ -18,7 +18,9 @@
 
 ## Ejercicios Python - Nivel Básico
 
-0. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio. Y trabajar en el repositorio propio.
+### GitHub
+
+0. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio. Y trabajar en el repositorio propio de GitHub.	
 
 ### Manejo de archivos y directorios
 
