@@ -8,7 +8,8 @@
 * Software de control de versiones de archivos para operar con GIT(https://git-scm.com/), por ejemplo GitHub https://github.com/ de escritorio o consola, (se requiere una cuenta).
 
 ## Ejercicios
-'''
+
+```
 Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
-'''
+```
 
