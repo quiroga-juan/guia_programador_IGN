@@ -5,7 +5,7 @@
 
 ## Objetivos
 
-* La guía tiene como objetivo desarrollar algoritmos, programas/rutinas y/o clases que son utilizadas a menudo para desarrollar tareas del **IGN (Depto. de Marcos de Referencia)**.
+* La guía tiene como objetivo desarrollar algoritmos, programas/rutinas y/o clases que son utilizadas a menudo en el **IGN (Depto. de Marcos de Referencia)**.
 
 * Se pide que los programas sean lo más modulares posibles y sin repetición de código.
 
@@ -29,13 +29,13 @@ Hola mundo!
 
 #### 1. Manejo de archivos y directorios
 
-A. Abrir un archivo nuevo, nombrarlo como: 
+ A. Abrir un archivo nuevo, nombrarlo como: 
 ```
 IGN_<fecha_actual>.txt
 ```
 *Nota*: \<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt. Utilizar libreria *datetime* para obtener la fecha. 
 
-B. Abrir ese mismo archivo y agregarle el siguiente contenido:
+ B. Abrir ese mismo archivo y agregarle el siguiente contenido:
 
 ```
 	1.<hora><min><seg>
