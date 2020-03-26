@@ -10,29 +10,21 @@
 ## Ejercicios
 
 ### Python - Nivel Básico
--------------------------
-```
+
 1. Una vez que se tienen los requerimientos de software, hay que realizar un Fork este repositorio.
-```
-```
-2. Imprimir por consola "Hola mundo"
-```
+
+
+2. Imprimir por consola "Hola mundo".
+
 
 #### Manejo de archivos
+
+3. Abrir un archivo nuevo, nombrarlo como: 
 ```
-3. Abrir un archivo nuevo, nombrarlo como: "IGN"_<fecha_actual>".txt", donde <fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
+"IGN"_<fecha_actual>".txt"
 ```
-```
-4. Abrir ese mismo archivo y agregarle el siguiente contenido:
-	-----------------------
-	"1."<hora><min><seg>
-	"2."<hora><min><seg>+1
-	"3."<hora><min><seg>+2
-	...
-	"50."<hora><min><seg>+49
-	-----------------------
-	Donde <hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
-```
+donde <fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt.
+
 >4. Abrir ese mismo archivo y agregarle el siguiente contenido:
 
 ```
@@ -42,7 +34,7 @@
 	...
 	"50."<hora><min><seg>+49
 ```
->	Donde <hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
+	Donde <hora><min><seg> son fijos. Por ejemplo <hora>=10; <min>=30; <seg>=10.
 
 5.
 ==
