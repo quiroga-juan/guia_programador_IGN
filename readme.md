@@ -1,5 +1,6 @@
 # Mini-Guía para programador IGN
 
+$g= 4.32$
 ## Pasos previos
 ### Requerimientos de software:
 * Python (la versión con la que se esté trabajando en ese momento, por ejemplo: v.2.7). En el caso que se pueda, agregar la ruta del programa al **PATH** del sistema. 
