@@ -79,6 +79,6 @@ IGN_<año><mes><dia><hora><min><seg>.txt
 ```
 
 ### Manejo de expresiones regulares
-> Requiere las siguientes librerias: re.
+> Requiere las siguientes librerias: [re](https://docs.python.org/2/library/re.html).
 
 7. Reconocimiento de hora, minutos y segundos del archivo IGN_\<fecha_actual>.txt. Con expresiones regulares. Parsear cada linea obteniendo \<hora>,\<min> y \<seg> en variables separadas.
