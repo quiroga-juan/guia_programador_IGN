@@ -1,7 +1,12 @@
 
+# Mini-Guía para programador IGN 
+
+
 <img src="images/IGN_Argentina.png" alt="IGN" width="350"/>
 
-# Mini-Guía para programador IGN 
+<p> 
+<img src="images/IGN_Argentina.png" align="right"># Mini-Guía para programador IGN 
+</p>
 
 ## Objetivos
 
