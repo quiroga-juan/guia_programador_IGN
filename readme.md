@@ -1,5 +1,5 @@
 <h1 align="center">
-Guía para el programador IGN 
+Guía de ejercicio para el programador IGN 
 </h1>
 
 <p> 
