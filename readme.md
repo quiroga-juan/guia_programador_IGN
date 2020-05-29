@@ -22,63 +22,85 @@ Guía para el programador IGN
 
 ### Para Nivel Avanzado
 
-* Base de datos PostgreSQL con alguna interfaz gráfica.
+* Base de datos PostgreSQL con alguna interfaz gráfica. Por ejemplo [pgAdmin](https://www.pgadmin.org/).
 
 ## Ejercicios Python - Nivel Básico
 
 ### GitHub
 
-0. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio y trabajar en el repositorio propio de GitHub.	
+0. Una vez que se tienen los requerimientos de software, realizar un Fork de este repositorio y trabajar en el repositorio propio de GitHub. [Tutorial](https://www.youtube.com/watch?v=9YUaf-uxuRM).
 
 ### Manejo de archivos y directorios
+Poner cada ejercicio en una carpeta diferente
 
-1. Abrir un archivo nuevo, nombrarlo como: 
+1. Crear un archivo y nombrarlo como: 
 ```
 IGN_<fecha_actual>.txt
 ```
-*Nota*: \<fecha_actual> es ddmmyyyy. Ejemplo: IGN_01032020.txt. Utilizar libreria *datetime* para obtener la fecha. 
 
-2. Abrir ese mismo archivo y agregarle el siguiente contenido:
+*Nota*: \<fecha_actual> tiene el formato ddmmyyyy. Ejemplo: IGN_01032020.txt. Utilizar libreria *datetime* para obtener la fecha. 
+
+2. Crear un archivo, nombrarlo como el ejercicio 1 y agregarle el siguiente contenido:
 
 ```
-	1.<hora><min><seg>
-	2.<hora><min><seg>+1
-	3.<hora><min><seg>+2
+	1.<hora>:<min>:<seg>
+	2.<hora>:<min>:<seg>+1
+	3.<hora>:<min>:<seg>+2
 	...
-	50.<hora><min><seg>+49
+	50.<hora>:<min>:<seg>+49
 ```
-*Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar *hora*, min, seg y el delta como variables de tipo entero.
 
-3. Abrir el archivo del ejercicio anterior y agregarle el siguiente contenido:
-
+Se le suma 1 segundo a cada linea anterior. Utilizar el ciclo *for* para imprimir.
+El archivo quedaría con un formato:
 ```
-	1.<hora><min><seg>
-	2.<hora><min><seg>+1
-	3.<hora><min><seg>+2
+	1.10:23:01
+	2.10:23:02
+	3.10:23:03
 	...
-	50.<hora><min><seg>+49
+	50.10:23:50
 ```
-*Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=30; \<seg>=10. Trabajar *hora*, min, seg y el delta como variables de tipo datetime.
+*Nota*: \<hora>\<min>\<seg> son fijos. Por ejemplo \<hora>=10; \<min>=23; \<seg>=1, utilizando variables de tipo entero. 
+
+3. Crear un archivo, nombrarlo como el ejercicio 1 y agregarle el siguiente contenido:
+
+```
+	1.<hora>:<min>:<seg>
+	2.<hora>:<min>:<seg>+1
+	3.<hora>:<min>:<seg>+2
+	...
+	10.<hora>:<min>:<seg>+9
+```
+*Nota*: En este caso \<hora>\<min>\<seg> son del momento que se ejecuta el programa. Usar la libreria time para utilizar variables de tipo time.
 
 4. Crear directorios en la carpeta de trabajo que tengan como nombre el numero de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios.
 
-5. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
-```
-IGN_<año><mes><dia><hora><min><seg>.txt
-```
-*Nota*: Las variables \<año>\<mes> son las mismas de donde se encuentra ubicado el archivo. Las variables \<hora>\<min>\<seg> son las del día de hoy (conviene trabajar con variables de tipo datetime).
+5. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año.
 
 
 ## Ejercicios Python - Nivel Intermedio
 > Requiere las siguientes librerias: [zip](https://docs.python.org/2.7/library/zipfile.html), [gzip](https://docs.python.org/2/library/gzip.html).
 ### Manejo de archivos y directorios
 
-6. Crear directorios en la carpeta de trabajo que tengan como nombre el número de año: comenzando desde el año 1980 y terminando en el 2020, pasando por todos los años intermedios. Luego en cada carpeta, crear 12 subcarpetas que tengan como nombre los meses del año y a su vez en los meses pares agregar un archivo con nombre:
+6. A partir del ejercicio 5:
+
+En cada carpeta del mes agregar un archivo con nombre:
 ```
 IGN_<año><mes><dia><hora><min><seg>.txt
 ```
+*Nota*: Las variables \<año>\<mes> son las mismas de donde se encuentra ubicado el archivo. Las variables \<hora>\<min>\<seg> son las del día de hoy (conviene trabajar con variables de tipo datetime).
+
 
 ### Manejo de expresiones regulares
 > Requiere las siguientes librerias: [re](https://docs.python.org/2/library/re.html).
 
-7. Reconocimiento de hora, minutos y segundos del archivo IGN_\<fecha_actual>.txt. Con expresiones regulares. Parsear cada linea obteniendo \<hora>,\<min> y \<seg> en variables separadas.
+7. Reconocimiento de hora, minutos y segundos del archivo IGN_\<fecha_actual>.txt del ejercicio 2. Con expresiones regulares parsear cada linea obteniendo \<hora>,\<min> y \<seg> en variables separadas.
+
+8. A partir del ejercicio 7, imprimir el contenido que se obtuvo con las expresiones regulares con el siguiente formato:
+
+```
+<hora> <min> <seg>
+<hora> <min> <seg>
+<hora> <min> <seg>
+...
+<hora> <min> <seg>
+```
